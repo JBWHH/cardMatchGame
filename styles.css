@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Body */  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    background-image: linear-gradient(to top, black, #ebb551, rgb(106, 106, 245));
+    height: 100vh; 
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 100px 0 80px 0;
+  }
+
+  /* Container */
+  .container {
+    background: black; /* container background color */
+    width: 70%; 
+    max-width: 1000px; /* Max width, won't go past 1000px even on bigger screens */
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 10px white;
+    border-radius: 15px;
+  }
+    
+  /* Column */
+  .col {
+    height: 100%;
+    width: 25%;
+    max-width: 300px; /* Won't go past 300px */
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  
+  /* Cards */
+  .card {
+    height: 70%;
+    width: 70%;
+    margin: 10px 10px 10px 35px; /* spacing N-E-S-W, for some reason left side margin needs to be adjusted more */
+    border: solid 8px white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Back of cards */
+  .card-back {
+    background-color: grey; /* Will add theme later */
+  }
+  
+  /* Holds "Reset" & "Play" button */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  
+  /* Reset button */
+  .reset {
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    border: 5px solid black;
+  }
+  
+  /* Play Button */
+  .play {
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 15px 10px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    border: 5px solid black;
+  }
+  
+  /* Queries to adjust height for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      width: 80vw;
+      height: 80vw;
+    }
+  }
+  @media (max-width: 480px) {
+    .container {
+      width:90vw;
+      height: 90vw;
+    }
+  }
+
+
+
+  /* Start HERE */
