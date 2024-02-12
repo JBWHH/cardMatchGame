@@ -24,6 +24,8 @@
     background: black; /* container background color */
     width: 70%; 
     max-width: 1000px; /* Max width, won't go past 1000px even on bigger screens */
+    min-height: 600px;
+    max-height: 1000px;
     height: 60vh;
     display: flex;
     justify-content: space-around;
@@ -38,6 +40,8 @@
     height: 100%;
     width: 25%;
     max-width: 300px; /* Won't go past 300px */
+    min-height: 700px;
+    max-height: 1000px;
     display: flex;
     flex-direction: column;
     border: none;

@@ -183,12 +183,3 @@ function flippedCard(e) {
 
 
 
-
-//<div> for front and back of cards??
-//function for flipping cards when clicked, and flipping back if there's no match (function checkMatch)
-//also with a delay setInterval();
-//play button should not be showing all colors
-//pairs should be locked and unclickable
-//when all pairs are found, gameBoard should be locked checkWin()
-//should shuffle function be invoked when resetBtn is clicked instead?
-//and instead playBtn "unlocks" gameBoard??
