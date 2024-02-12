@@ -49,9 +49,9 @@
   
   /* Cards */
   .card {
-    height: 70%;
+    height: 30%;
     width: 70%;
-    margin: 10px 10px 10px 35px; /* spacing N-E-S-W, for some reason left side margin needs to be adjusted more */
+    margin: 10px auto; /* spacing N-E-S-W, for some reason left side margin needs to be adjusted more */
     border: solid 8px white;
     border-radius: 15px;
     display: flex;
@@ -99,17 +99,18 @@
   /* Queries to adjust height for smaller screens */
   @media (max-width: 768px) {
     .container {
-      width: 80vw;
-      height: 80vw;
+      width: 90%;
+      height: 70%;
     }
   }
   @media (max-width: 480px) {
     .container {
-      width:90vw;
-      height: 90vw;
+      width: 80%;
+      height: 80%;
     }
   }
-
-
-
-  /* Start HERE */
+  @media (max-height: 1086px) {
+    .card {
+      height: 18%;
+    }
+  }
