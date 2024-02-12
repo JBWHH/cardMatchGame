@@ -4,7 +4,7 @@
     padding: 0;
   }
 
-  /* Body */  
+   
   body {
     display: flex;
     flex-direction: column;
@@ -19,11 +19,11 @@
     margin: 100px 0 80px 0;
   }
 
-  /* Container */
+  
   .container {
-    background: black; /* container background color */
+    background: black; 
     width: 70%; 
-    max-width: 1000px; /* Max width, won't go past 1000px even on bigger screens */
+    max-width: 1000px; 
     min-height: 600px;
     max-height: 1000px;
     height: 60vh;
@@ -35,11 +35,11 @@
     border-radius: 15px;
   }
     
-  /* Column */
+  
   .col {
     height: 100%;
     width: 25%;
-    max-width: 300px; /* Won't go past 300px */
+    max-width: 300px; 
     min-height: 700px;
     max-height: 1000px;
     display: flex;
@@ -47,30 +47,30 @@
     border: none;
   }
   
-  /* Cards */
+  
   .card {
     height: 30%;
     width: 70%;
-    margin: 10px auto; /* spacing N-E-S-W, for some reason left side margin needs to be adjusted more */
+    margin: 10px auto; 
     border: solid 8px white;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  /* Back of cards */
+  
   .card-back {
-    background-color: grey; /* Will add theme later */
+    background-color: grey; 
   }
   
-  /* Holds "Reset" & "Play" button */
+  
   .button-container {
     display: flex;
     justify-content: center;
     border: none;
   }
   
-  /* Reset button */
+  
   .reset {
     background-color: orange;
     width: 100px;
@@ -83,7 +83,7 @@
     border: 5px solid black;
   }
   
-  /* Play Button */
+  
   .play {
     background-color: orange;
     width: 100px;
@@ -96,7 +96,7 @@
     border: 5px solid black;
   }
   
-  /* Queries to adjust height for smaller screens */
+  
   @media (max-width: 768px) {
     .container {
       width: 90%;
